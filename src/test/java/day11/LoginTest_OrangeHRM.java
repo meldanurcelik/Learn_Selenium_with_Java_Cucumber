@@ -6,7 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-/*1) Open Web Browser(Chrome/IE/firefox).
+/*
+1) Open Web Browser(Chrome/IE/firefox).
 2) Open URL  https://opensource-demo.orangehrmlive.com/
 3) Enter username  (Admin).
 4) Enter password  (admin123).   
@@ -14,7 +15,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 6) Capture title of the home page.
 7) Verify title of the page: OrangeHRM 
 8) Close browser
-  */
+*/
 
 public class LoginTest_OrangeHRM {
 
@@ -27,7 +28,8 @@ public class LoginTest_OrangeHRM {
         //Chrome browser
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(); //Launch the chrome browser
-        driver.manage().window().maximize(); // Make the browser full screen
+
+        driver.manage().window().maximize(); //  Maximize your browser/page
 
         //2) Open URL  https://opensource-demo.orangehrmlive.com/
         driver.get("https://opensource-demo.orangehrmlive.com/");

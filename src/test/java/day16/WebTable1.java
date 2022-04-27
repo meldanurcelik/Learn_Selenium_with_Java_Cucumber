@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Webtable1 {
+public class WebTable1 {
 
     static WebDriver driver;
 
@@ -34,6 +34,8 @@ public class Webtable1 {
             }
             System.out.println();
         }
+
+        driver.quit();
 
     }
 }

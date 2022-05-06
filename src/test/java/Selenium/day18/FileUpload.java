@@ -21,12 +21,11 @@ public class FileUpload {
         driver.get("http://demo.automationtesting.in/Register.html");
 
         String imagesFilepath = "C:\\Users\\melda\\Documents\\IdeaProjects\\learn-selenium-with-java-cucumber\\src\\test\\java\\Selenium\\day18\\Fruites\\";
-        String inputFilepath = imagesFilepath + "inputfiles\\";
 
         WebElement uploadElement = driver.findElement(By.xpath("//input[@id='imagesrc']"));
-        uploadElement.sendKeys(inputFilepath + "apple.jpg");
+        uploadElement.sendKeys(imagesFilepath + "Apple.jpg");
 
-        Thread.sleep(5000);
+        Thread.sleep(3000);
 
         driver.quit();
 

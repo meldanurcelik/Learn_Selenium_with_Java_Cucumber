@@ -5,7 +5,7 @@
         <parameter name="a" value="welcome "/>
         <parameter name="b" value="to selenium"/>
         <classes>
-            <class name="Selenium.day21.parameterization.Test1"/>
+            <class name="Selenium.day22.Test1"/>
         </classes>
     </test>
 </suite>

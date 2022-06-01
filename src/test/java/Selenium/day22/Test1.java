@@ -1,4 +1,4 @@
-package Selenium.day21.parameterization;
+package Selenium.day22;
 
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;

@@ -1,9 +1,9 @@
-package Selenium.day21;
+package Selenium.day22;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class DependencyMethods {
+public class DisablingTestsMethods {
 
     @Test(priority = 1)
     void openURL() {
@@ -11,25 +11,23 @@ public class DependencyMethods {
         Assert.assertTrue(true);
     }
 
-    @Test(priority = 2, dependsOnMethods = {"openURL"})
+    @Test(priority = 2)
     void login() {
         System.out.println("login test");
         Assert.assertTrue(true);
     }
 
-    @Test(priority = 3, dependsOnMethods = {"login"})
+    @Test(priority = 3, enabled = false)
     void search() {
-        System.out.println("search test");
-        Assert.assertTrue(false);
+        System.out.println("still in progress............");
     }
 
-    @Test(priority = 4, dependsOnMethods = {"login", "search"})
+    @Test(priority = 4, enabled = true)
     void advancedsearch() {
-        System.out.println("advanced search test");
-        Assert.assertTrue(true);
+        System.out.println("still in progress..............");
     }
 
-    @Test(priority = 5, dependsOnMethods = {"login"})
+    @Test(priority = 5)
     void logout() {
         System.out.println("loogout test");
         Assert.assertTrue(true);

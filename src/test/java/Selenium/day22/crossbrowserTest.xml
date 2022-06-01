@@ -4,19 +4,19 @@
     <test name="chrometest">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="Selenium.day21.parameterization.CrossBrowserTest"/>
+            <class name="Selenium.day22.CrossBrowserTest"/>
         </classes>
     </test>
     <test name="firefoxtest">
         <parameter name="browser" value="firefox" />
         <classes>
-            <class name="Selenium.day21.parameterization.CrossBrowserTest" />
+            <class name="Selenium.day22.CrossBrowserTest" />
         </classes>
     </test>
     <test name="ietest">
         <parameter name="browser" value="ie" />
         <classes>
-            <class name="Selenium.day21.parameterization.CrossBrowserTest" />
+            <class name="Selenium.day22.CrossBrowserTest" />
         </classes>
     </test>
 </suite>

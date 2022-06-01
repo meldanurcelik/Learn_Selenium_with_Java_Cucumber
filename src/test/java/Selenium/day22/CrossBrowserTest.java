@@ -1,4 +1,4 @@
-package Selenium.day21.parameterization;
+package Selenium.day22;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

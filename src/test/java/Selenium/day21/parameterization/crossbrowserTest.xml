@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="crossbrowsertestsuite" parallel="tests">
+    <test name="chrometest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Selenium.day21.parameterization.CrossBrowserTest"/>
+        </classes>
+    </test>
+    <test name="firefoxtest">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="Selenium.day21.parameterization.CrossBrowserTest" />
+        </classes>
+    </test>
+    <test name="ietest">
+        <parameter name="browser" value="ie" />
+        <classes>
+            <class name="Selenium.day21.parameterization.CrossBrowserTest" />
+        </classes>
+    </test>
+</suite>

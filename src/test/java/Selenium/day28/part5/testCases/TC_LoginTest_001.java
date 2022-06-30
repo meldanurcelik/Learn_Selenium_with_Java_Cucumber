@@ -1,4 +1,4 @@
-package Selenium.day28.testCases;
+package Selenium.day28.part5.testCases;
 
 import java.io.IOException;
 
@@ -30,11 +30,11 @@ public class TC_LoginTest_001 extends BaseClass {
         if (driver.getTitle().equals("Dashboard / nopCommerce administration")) {
             lp.clickLogout();
             Assert.assertTrue(true);
-            logger.info("Login Passed");//logger msg
+            logger.info("Login Passed"); //logger msg
 
         } else {
             captureScreen(driver, "loginTest");
-            logger.info("Login Failed");//logger msg
+            logger.info("Login Failed"); //logger msg
             Assert.assertTrue(false);
         }
 

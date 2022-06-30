@@ -1,4 +1,4 @@
-package Selenium.day28.utilities;
+package Selenium.day28.part5.utilities;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,9 +28,8 @@ public class Reporting extends TestListenerAdapter {
     public void onStart(ITestContext testContext) {
         String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date()); //time stamp
         String repName = "Test-Report-" + timeStamp + ".html";
-        String text = System.getProperty("user.dir");
         htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/" + repName); //specify location of the report
-        htmlReporter.loadXMLConfig(System.getProperty("user.dir") + "/src/test/java/Selenium/day28/extent-config.xml");
+        htmlReporter.loadXMLConfig(System.getProperty("user.dir") + "/extent-config.xml");
 
         extent = new ExtentReports();
 

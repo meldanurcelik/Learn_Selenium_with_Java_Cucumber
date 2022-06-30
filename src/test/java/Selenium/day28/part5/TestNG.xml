@@ -4,13 +4,13 @@
 <suite name="InetBankingV9">
 
     <listeners>
-        <listener class-name="Selenium.day28.utilities.Reporting"/>
+        <listener class-name="Selenium.day28.part5.utilities.Reporting"/>
     </listeners>
 
     <test name="BankingApp Test">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="Selenium.day28.testCases.TC_LoginTest_001"/>
+            <class name="Selenium.day28.part5.testCases.TC_LoginTest_001"/>
         </classes>
     </test>
 

@@ -20,6 +20,7 @@ public class BaseClass {
     public String password = readconfig.getPassword();
 
     public static WebDriver driver;
+
     public static Logger logger; //Added logger
 
     @BeforeClass
@@ -29,7 +30,7 @@ public class BaseClass {
         driver.manage().window().maximize(); // Maximize your browser/page
 
         logger = Logger.getLogger("eCommerce"); //Added logger
-        PropertyConfigurator.configure("log4j.properties");//Added logger
+        PropertyConfigurator.configure("log4j.properties"); //Added logger
     }
 
     @AfterClass

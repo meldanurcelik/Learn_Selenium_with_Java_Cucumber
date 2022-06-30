@@ -4,7 +4,6 @@ import Selenium.day27.part1.pageObjects.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-
 public class TC_LoginTest_001 extends BaseClass {
 
     @Test

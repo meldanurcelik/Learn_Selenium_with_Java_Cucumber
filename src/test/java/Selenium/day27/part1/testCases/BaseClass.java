@@ -9,10 +9,10 @@ import org.testng.annotations.BeforeClass;
 public class BaseClass {
 
     public String baseURL = "http://admin-demo.nopcommerce.com/";
+
     public String username = "admin@yourstore.com ";
 
     public String password = "admin";
-
     static WebDriver driver;
 
     @BeforeClass

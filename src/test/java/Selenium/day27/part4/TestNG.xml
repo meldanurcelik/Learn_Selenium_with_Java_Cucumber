@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="nopCommerce" parallel="tests" thread-count="5">
+
+    <test name="nopCommerce Test1" thread-count="5">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Selenium.day27.part4.testCases.TC_LoginTest_001"/>
+        </classes>
+    </test>
+
+    <!-- <test name="nopCommerce Test3" thread-count="5">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="Selenium.day27.part4.testCases.TC_LoginTest_001" />
+        </classes>
+    </test> -->
+
+</suite>

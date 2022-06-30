@@ -10,3 +10,15 @@
 2022-06-30 22:59:08,541 [main] INFO eCommerce - Password provided
 2022-06-30 22:59:12,042 [main] INFO eCommerce - Login in Clicked
 2022-06-30 22:59:18,499 [main] INFO eCommerce - Login Passed
+2022-06-30 23:12:03,085 [TestNG-tests-1] INFO eCommerce - User provided
+2022-06-30 23:12:03,093 [TestNG-tests-1] INFO eCommerce - Password provided
+2022-06-30 23:12:07,549 [TestNG-tests-1] INFO eCommerce - Login in Clicked
+2022-06-30 23:12:11,087 [TestNG-tests-1] INFO eCommerce - Login Passed
+2022-06-30 23:12:30,446 [TestNG-tests-1] INFO eCommerce - User provided
+2022-06-30 23:12:30,455 [TestNG-tests-1] INFO eCommerce - Password provided
+2022-06-30 23:12:34,660 [TestNG-tests-1] INFO eCommerce - Login in Clicked
+2022-06-30 23:12:38,224 [TestNG-tests-1] INFO eCommerce - Login Passed
+2022-06-30 23:14:16,018 [TestNG-tests-1] INFO eCommerce - User provided
+2022-06-30 23:14:16,024 [TestNG-tests-1] INFO eCommerce - Password provided
+2022-06-30 23:14:20,508 [TestNG-tests-1] INFO eCommerce - Login in Clicked
+2022-06-30 23:14:23,979 [TestNG-tests-1] INFO eCommerce - Login Passed

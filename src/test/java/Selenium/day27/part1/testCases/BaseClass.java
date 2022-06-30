@@ -1,4 +1,4 @@
-package Selenium.day27.testCases;
+package Selenium.day27.part1.testCases;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

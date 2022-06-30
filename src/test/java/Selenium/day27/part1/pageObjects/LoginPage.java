@@ -1,4 +1,4 @@
-package Selenium.day27.pageObjects;
+package Selenium.day27.part1.pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

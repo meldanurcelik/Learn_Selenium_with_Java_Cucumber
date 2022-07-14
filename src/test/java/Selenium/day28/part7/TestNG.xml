@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="nopCommerce">
+
+    <listeners>
+        <listener class-name="Selenium.day28.part5.utilities.Reporting"/>
+    </listeners>
+
+    <test name="nopCommerce Test1" thread-count="5">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Selenium.day28.part7.testCases.TC_AddCustomerTest_003"/>
+        </classes>
+    </test>
+
+</suite>

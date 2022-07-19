@@ -2,7 +2,6 @@ Feature: MyAccount-Login Feature
   Description: This feature will test a Login feature
 
   #Simple login without parameters
-  @case1
   Scenario: Log-in with valid username and password
     Given Open the browser
     When Enter the URL "http://practice.automationtesting.in/"
@@ -12,7 +11,6 @@ Feature: MyAccount-Login Feature
     Then User must successfully login to the web page
 
   #Simple login with Data table params with header
-  @case2
   Scenario: Log-in with valid username and password with Data table
     Given Open the browser
     When Enter the URL "http://practice.automationtesting.in/"

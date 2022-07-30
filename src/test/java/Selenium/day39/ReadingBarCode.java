@@ -26,8 +26,6 @@ public class ReadingBarCode {
 
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        //System.setProperty("webdriver.chrome.driver", "E:\\IdeaProjects\\learn-selenium-cucumber-with-java\\src\\test\\java\\Selenium\\day39\\chromedriver.exe");
-        //WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
         driver.get("https://testautomationpractice.blogspot.com/");

@@ -14,14 +14,14 @@
         <!-- Selenium -->
         <selenium.version>4.1.1</selenium.version>
         <!-- WebDriverManager -->
-        <WebDriverManager.version>5.0.3</WebDriverManager.version>
+        <WebDriverManager.version>5.2.1</WebDriverManager.version>
         <!-- log4j -->
         <log4j.version>1.2.17</log4j.version>
         <log4jcore.version>2.17.1</log4jcore.version>
         <!-- JUnit Jupiter -->
         <junit.jupiter.version>5.8.2</junit.jupiter.version>
         <!-- slf4j -->
-        <slf4j.version>1.7.35</slf4j.version>
+        <slf4j.version>1.7.36</slf4j.version>
         <!-- apache.poi -->
         <apache.poi.version>5.2.2</apache.poi.version>
         <!-- apache.poi -->
@@ -77,7 +77,7 @@
             <version>${selenium.version}</version>
         </dependency>
 
-        <!-- WebDriverManager https://github.com/bonigarcia/webdrivermanager -->
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
@@ -225,7 +225,19 @@
             <version>31.1-jre</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.3.3</version>
+        </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>javase</artifactId>
+            <version>3.3.3</version>
+        </dependency>
 
 
 

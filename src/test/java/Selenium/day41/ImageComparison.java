@@ -27,7 +27,7 @@ public class ImageComparison {
 
         driver.get("https://opensource-demo.orangehrmlive.com/");
 
-        BufferedImage expectedImage = ImageIO.read(new File("E:\\learn-selenium-cucumber-with-java\\Screenshots\\OrangeHRMlogo.png"));
+        BufferedImage expectedImage = ImageIO.read(new File("Screenshots/OrangeHRMlogo.png"));
 
         WebElement logoImageElement = driver.findElement(By.xpath("//*[@id='divLogo']/img"));
 

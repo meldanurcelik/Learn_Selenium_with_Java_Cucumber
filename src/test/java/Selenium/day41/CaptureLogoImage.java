@@ -27,9 +27,9 @@ public class CaptureLogoImage {
         WebElement logoImageElement = driver.findElement(By.xpath("//*[@id='divLogo']/img"));
 
         Screenshot logoImageScreenshot = new AShot().takeScreenshot(driver, logoImageElement);
-        ImageIO.write(logoImageScreenshot.getImage(), "png", new File("E:\\learn-selenium-cucumber-with-java\\Screenshots\\OrangeHRMlogo.png"));
+        ImageIO.write(logoImageScreenshot.getImage(), "png", new File("Screenshots/OrangeHRMlogo.png"));
 
-        File f = new File("E:\\learn-selenium-cucumber-with-java\\Screenshots\\OrangeHRMlogo.png");
+        File f = new File("Screenshots/OrangeHRMlogo.png");
 
         if (f.exists()) {
             System.out.println("Image File Captured");

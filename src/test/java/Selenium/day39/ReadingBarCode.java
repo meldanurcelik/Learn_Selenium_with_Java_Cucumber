@@ -50,6 +50,7 @@ public class ReadingBarCode {
         System.out.println(result.getText());
 
         driver.close();
+
     }
 
 }

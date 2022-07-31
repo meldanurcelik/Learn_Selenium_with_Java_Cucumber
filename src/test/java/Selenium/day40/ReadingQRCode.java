@@ -33,7 +33,7 @@ public class ReadingQRCode {
         JavascriptExecutor js = ((JavascriptExecutor) driver);
         js.executeScript("arguments[0].scrollIntoView(true);", driver.findElement(By.xpath("//h2[contains(text(),'Bar Codes')]")));
 
-        String qrCodeURL = driver.findElement(By.xpath("//*[@id=\"HTML4\"]/div[1]/img")).getAttribute("src");
+        String qrCodeURL = driver.findElement(By.xpath("//*[@id='HTML4']/div[1]/img")).getAttribute("src");
 
         System.out.println(qrCodeURL);
 

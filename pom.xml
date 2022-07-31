@@ -229,6 +229,12 @@
             <version>2.8.5</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/htmlunit-driver -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>htmlunit-driver</artifactId>
+            <version>3.62.0</version>
+        </dependency>
 
     </dependencies>
 
